@@ -82,3 +82,8 @@ Evidencias de Execução
 Esta imagem mostra o momento em que executei o comando para subir o agentel utilizando o arquivo de configuração helloworld.conf. É possível notar o Flume carregando as bibliotecas do Hadoop e HBase, preparando o ambiente para a execução.
 ![Foto](img/1.png)
 
+O motor do projeto. Esta imagem mostra o script Python gerador_log_web.py rodando e gerando logs em tempo real. No terminal menor, executei um tail -F para provar que o arquivo /tmp/access_log estava sendo populado continuamente com acessos simulados. Note a variedade de IPs e datas.
+![Foto2](img/2.png)
+
+Esta é a evidência final do teste básico. O log do Flume (LoggerSink) capturou o evento e imprimiu no console a mensagem "hello world" que enviei via netcat, provando a integridade do fluxo Fonte -> Canal -> Sink.
+![Foto 3](img/3.png)
