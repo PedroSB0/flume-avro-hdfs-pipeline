@@ -75,3 +75,10 @@ Data Quality: Filtragem de dados on-the-fly para economia de storage.
 Performance: Uso de formatos binários (Avro) em vez de texto puro para otimizar o tráfego de rede.
 
 Resiliência: Gerenciamento de múltiplos processos e portas de rede em ambiente Linux/Cloudera.
+```
+
+Evidencias de Execução
+
+Esta imagem mostra o momento em que executei o comando para subir o agentel utilizando o arquivo de configuração helloworld.conf. É possível notar o Flume carregando as bibliotecas do Hadoop e HBase, preparando o ambiente para a execução.
+![Foto](img/1.png)
+
